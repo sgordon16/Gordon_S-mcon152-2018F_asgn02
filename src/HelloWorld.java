@@ -9,7 +9,8 @@ public class HelloWorld {
 		int a = kb.nextInt();
 		System.out.println("Enter number 2");
 		int b = kb.nextInt();
-		System.out.println(a+b);
+		Adder adder = new Adder(a,b);
+		System.out.println(adder.add());
 		kb.close();
 	}
 
