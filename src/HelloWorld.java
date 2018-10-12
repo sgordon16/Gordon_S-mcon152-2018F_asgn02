@@ -10,7 +10,9 @@ public class HelloWorld {
 		System.out.println("Enter number 2");
 		int b = kb.nextInt();
 		Adder adder = new Adder(a,b);
+		Subtracter  subtracter = new Subtracter(a,b);
 		System.out.println(adder.add());
+		System.out.println(subtracter.subtract());
 		kb.close();
 	}
 
